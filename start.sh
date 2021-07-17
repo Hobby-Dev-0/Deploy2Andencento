@@ -1,5 +1,5 @@
 echo "Configuring the bot"
-git clone https://github.com/Noob-Stranger/andencento/tree/Dev.git
+git clone -b Dev https://github.com/Noob-Stranger/andencento.git
 cd andencento
 
 echo "‌‌
