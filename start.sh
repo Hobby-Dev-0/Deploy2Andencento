@@ -1,5 +1,10 @@
 echo "Configuring the bot"
-git clone -b Dev https://github.com/Noob-Stranger/andencento.git
+if [[ $UPSTREAM_REPO == "DEV" ]]
+then
+   git clone -b Dev https://github.com/Noob-Stranger/andencento.git
+else
+   git clone https://github.com/Noob-Stranger/andencento.git
+fi
 cd andencento
 
 echo "‌‌
